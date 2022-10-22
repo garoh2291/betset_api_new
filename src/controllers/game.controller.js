@@ -47,8 +47,7 @@ class GameController {
         coeff,
         league,
         position,
-        weather,
-        temp,
+        description,
         risk,
       } = req.body;
       team1 && (game.team1 = team1);
@@ -58,8 +57,7 @@ class GameController {
       coeff && (game.coeff = coeff);
       league && (game.league = league);
       position && (game.position = position);
-      temp && (game.temp = temp);
-      weather && (game.weather = weather);
+      description && (game.temp = description);
 
       await game.save();
       res.json(game.toObject());

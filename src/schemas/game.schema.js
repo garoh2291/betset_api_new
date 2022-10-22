@@ -46,12 +46,8 @@ const GameSchema = new Schema(
       type: Object,
       required: true,
     },
-    temp: {
-      type: Number,
-      required: true,
-    },
-    weather: {
-      type: String,
+    description: {
+      type: Object,
       required: true,
     },
     date: {
