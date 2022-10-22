@@ -1,0 +1,17 @@
+{
+  "title": "contact form",
+  "type": "object",
+  "properties": {
+    "body": {
+      "type": "object",
+      "properties": {
+        "email": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 254
+        }
+      },
+      "required": ["email"]
+    }
+  }
+}

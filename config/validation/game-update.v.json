@@ -1,0 +1,95 @@
+{
+  "title": "create game",
+  "type": "object",
+  "properties": {
+    "body": {
+      "type": "object",
+      "properties": {
+        "team1": {
+          "type": "object",
+          "properties": {
+            "am": {
+              "type": "string",
+              "minLength": 1
+            },
+            "en": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "team2": {
+          "type": "object",
+          "properties": {
+            "am": {
+              "type": "string",
+              "minLength": 1
+            },
+            "en": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "risk": {
+          "type": "string",
+          "enum": ["extreme", "medium", "high", "low", "best"]
+        },
+        "sport": {
+          "type": "string",
+          "enum": [
+            "football",
+            "basketball",
+            "volleyball",
+            "Regby",
+            "tennis",
+            "tableTennis",
+            "hockey"
+          ]
+        },
+        "coeff": {
+          "type": "number",
+          "minLength": 1
+        },
+        "league": {
+          "type": "object",
+          "properties": {
+            "am": {
+              "type": "string",
+              "minLength": 1
+            },
+            "en": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "position": {
+          "type": "object",
+          "properties": {
+            "am": {
+              "type": "string",
+              "minLength": 1
+            },
+            "en": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "temp": {
+          "type": "number",
+          "minLength": 1
+        },
+        "weather": {
+          "type": "string",
+          "minLength": 1
+        },
+        "date": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "required": ["body"]
+}

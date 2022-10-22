@@ -1,0 +1,23 @@
+{
+  "title": "create express",
+  "type": "object",
+  "properties": {
+    "body": {
+      "type": "object",
+      "properties": {
+        "express": {
+          "type": "array"
+        },
+        "probability": {
+          "type": "number"
+        },
+        "totalCf": {
+          "type": "number"
+        },
+        "win": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}

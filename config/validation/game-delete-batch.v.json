@@ -1,0 +1,20 @@
+{
+  "title": "create game",
+  "type": "object",
+  "properties": {
+    "body": {
+      "type": "object",
+      "properties": {
+        "games": {
+          "type": "array"
+        }
+      },
+      "required": [
+        "games"
+      ]
+    }
+  },
+  "required": [
+    "body"
+  ]
+}
