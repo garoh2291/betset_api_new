@@ -57,7 +57,7 @@ class GameController {
       coeff && (game.coeff = coeff);
       league && (game.league = league);
       position && (game.position = position);
-      description && (game.temp = description);
+      description && (game.description = description);
 
       await game.save();
       res.json(game.toObject());
