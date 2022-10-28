@@ -1,0 +1,23 @@
+{
+  "title": "create express",
+  "type": "object",
+  "properties": {
+    "body": {
+      "type": "object",
+      "properties": {
+        "games": {
+          "type": "array"
+        },
+        "totalCoeff": {
+          "type": "number"
+        },
+        "status": {
+          "type": "string",
+          "enum": ["win", "loose", "pending"]
+        }
+      },
+      "required": ["games", "totalCoeff", "status"]
+    }
+  },
+  "required": ["body"]
+}

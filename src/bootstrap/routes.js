@@ -6,5 +6,6 @@ module.exports = (app) => {
   app.use("/user", require("../routes/user.route"));
   app.use("/game", require("../routes/game.route"));
   app.use("/form", require("../routes/form.route"));
+  app.use("/express", require("../routes/express.route"));
   app.use("/football", require("../routes/football.route"));
 };
