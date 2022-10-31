@@ -14,7 +14,7 @@ const ExpressSchema = new Schema({
   },
   status: {
     type: String,
-    enum: ["win", "loose", "pending"],
+    enum: ["win", "loose", "pending", "returned"],
     required: true,
   },
 });

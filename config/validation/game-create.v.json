@@ -43,6 +43,10 @@
           "type": "string",
           "enum": ["extreme", "medium", "high", "low", "best"]
         },
+        "matchDay": {
+          "type": "string",
+          "enum": ["yes", "no"]
+        },
         "sport": {
           "type": "string",
           "enum": [
@@ -125,7 +129,8 @@
         "league",
         "position",
         "description",
-        "date"
+        "date",
+        "matchDay"
       ]
     }
   },

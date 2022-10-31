@@ -13,7 +13,7 @@
         },
         "status": {
           "type": "string",
-          "enum": ["win", "loose", "pending"]
+          "enum": ["win", "loose", "pending", "returned"]
         }
       }
     }

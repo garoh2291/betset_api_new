@@ -49,11 +49,13 @@ class GameController {
         position,
         description,
         risk,
+        matchDay,
       } = req.body;
       team1 && (game.team1 = team1);
       team2 && (game.team2 = team2);
       sport && (game.sport = sport);
       risk && (game.risk = risk);
+      matchDay && (game.matchDay = matchDay);
       coeff && (game.coeff = coeff);
       league && (game.league = league);
       position && (game.position = position);

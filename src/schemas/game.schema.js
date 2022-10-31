@@ -22,6 +22,10 @@ const GameSchema = new Schema(
       type: String,
       enum: ["extreme", "medium", "high", "low", "best"],
     },
+    matchDay: {
+      type: String,
+      enum: ["yes", "no"],
+    },
     sport: {
       type: String,
       enum: [
