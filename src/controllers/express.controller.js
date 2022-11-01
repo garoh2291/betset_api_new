@@ -70,7 +70,7 @@ class ExpressController {
       };
 
       const { status } = query;
-      if (status && /^win$|^loose$|^pending$/gi.test(status)) {
+      if (status && /^win$|^loose$|^returned|^pending$/gi.test(status)) {
         dbQuery.status = status;
       }
 

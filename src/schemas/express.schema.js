@@ -17,6 +17,9 @@ const ExpressSchema = new Schema({
     enum: ["win", "loose", "pending", "returned"],
     required: true,
   },
+  date: {
+    type: Date,
+  },
 });
 
 ExpressSchema.plugin(mongoosePaginate);
