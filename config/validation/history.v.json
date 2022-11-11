@@ -1,0 +1,23 @@
+{
+  "title": "create history",
+  "type": "object",
+  "properties": {
+    "body": {
+      "type": "object",
+      "properties": {
+        "games": {
+          "type": "array"
+        },
+        "totalCoeff": {
+          "type": "number"
+        },
+        "status": {
+          "type": "string"
+        },
+        "date": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
