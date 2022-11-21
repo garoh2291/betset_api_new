@@ -115,7 +115,7 @@ class GameController {
       const { sport } = query;
       if (
         sport &&
-        /^football$|^basketball$|^volleyball$|^Regby$|^tennis$|^tableTennis|$^hockey$/gi.test(
+        /^football$|^basketball$|^volleyball$|^Regby$|^tennis$|^tableTennis|$^ice hockey$/gi.test(
           sport
         )
       ) {

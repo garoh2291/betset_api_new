@@ -35,7 +35,7 @@ const GameSchema = new Schema(
         "Regby",
         "tennis",
         "tableTennis",
-        "hockey",
+        "ice hockey",
       ],
     },
     coeff: {
